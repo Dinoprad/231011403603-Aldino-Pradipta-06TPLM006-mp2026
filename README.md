@@ -1,44 +1,54 @@
-# Aplikasi Workshop Kampus
 
-Aplikasi sederhana berbasis Flutter yang menampilkan daftar workshop untuk mahasiswa dan dosen.
-Project ini dibuat untuk memenuhi tugas UTS Mobile Programming.
+Aplikasi Workshop Kampus
 
-## Fitur Utama
+Aplikasi sederhana berbasis Flutter yang menampilkan daftar workshop untuk mahasiswa dan dosen. Project ini dibuat untuk memenuhi tugas UTS Mobile Programming dengan fokus pada desain UI yang rapi dan pengalaman pengguna (UX) yang nyaman.
+
+
+Fitur Utama
 
 - Menampilkan daftar workshop dalam bentuk Card
 - Informasi yang ditampilkan:
-    - Judul workshop
-    - Tanggal
-    - Lokasi
-    - Kuota peserta
-- Tombol Daftar pada setiap workshop
-- Tampilan rapi, sederhana, dan mudah dibaca (UX-friendly)
+  - Judul workshop
+  - Tanggal
+  - Lokasi
+  - Kuota peserta
+- Tersedia tombol "Daftar" pada setiap workshop
+- Tampilan sederhana, rapi, dan mudah dibaca
 
-## Teknologi Yang Digunakan
+
+
+Teknologi yang Digunakan
 
 - Flutter
 - Dart
-- Material Design
 
-## Konsep UI/UX
 
-- Menggunakan Card untuk memisahkan setiap workshop
-- Menggunakan ListView agar bisa scroll
-- Mengatur hierarki teks (judul lebih menonjol)
-- Memberikan spacing (jarak) agar tidak terlihat penuh
-- Tombol aksi dibuat jelas (call to action)
+Konsep UI/UX
 
-## Cara Menjalankan Project
+Desain aplikasi dibuat berdasarkan prinsip kemudahan membaca dan kesederhanaan:
 
-1. Pastikan Flutter sudah terinstall
-2. Clone repository ini: git clone https://github.com/username/nama-repo.git
-3. Masuk ke folder project: cd nama-repo
-4. Jalankan perintah:
-    - flutter pub get
-    - flutter run
+- Menggunakan Card untuk memisahkan setiap workshop agar tidak terlihat penuh
+- Menggunakan ListView agar data dapat di-scroll jika banyak
+- Mengatur hierarki teks (judul lebih besar dan menonjol dibanding detail)
+- Memberikan spacing (jarak) antar elemen agar lebih nyaman dilihat
+- Menggunakan ikon untuk memperjelas informasi (tanggal, lokasi, kuota)
+- Tombol aksi (Daftar) dibuat jelas dan mudah diakses (call to action)
 
-## Author
 
-- Nama: Raffi Ramadhan
-- NIM: 231011400771
+Cara Menjalankan Project
+
+1. Pastikan Flutter sudah terinstall di perangkat kamu
+2. Clone repository:
+   git clone <link-repository>
+3. Masuk ke folder project:
+   cd nama-repository
+4. Jalankan perintah berikut:
+   flutter pub get
+flutter run
+
+
+Author
+
+- Nama: Aldino Pradipta
+- NIM: 231011403603
 - Kelas: 06TPLM006
